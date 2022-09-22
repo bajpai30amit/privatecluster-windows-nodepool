@@ -29,7 +29,7 @@ module "gke" {
   network_policy             = false
   enable_private_endpoint    = false
   enable_private_nodes       = true
-  master_ipv4_cidr_block     = "172.16.7.0/28"
+  master_ipv4_cidr_block     = "172.16.8.0/28"
 
  
   node_pools = [
