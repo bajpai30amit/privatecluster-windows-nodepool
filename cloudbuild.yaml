@@ -25,7 +25,7 @@ steps:
   - '-c'
   - |
       echo "########## TERRAFORM APPLY #############"
-    terraform apply -auto-approve
+      terraform apply -auto-approve
 timeout: 2400s
 options:
   logging: CLOUD_LOGGING_ONLY
