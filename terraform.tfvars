@@ -1,4 +1,4 @@
-#gcp_credentials = "tf-amit.json"
+gcp_credentials = "tf-amit.json"
 gcp_project_id = "shoptrue-gke"
 gcp_region = "us-central1"
 gke_zones = ["us-central1-a"]
