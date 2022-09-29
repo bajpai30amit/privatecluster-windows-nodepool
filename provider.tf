@@ -23,3 +23,9 @@ provider "google" {
     project = var.gcp_project_id
     region = var.gcp_region
 }
+terraform {
+  backend "gcs" {
+    bucket  = "terraform-tfstate-test-vpoc"
+    prefix  = "tfstate"
+  }
+}
