@@ -25,7 +25,7 @@ provider "google" {
 }
 terraform {
   backend "gcs" {
-    bucket  = "terraform-tfstate-test-vpoc"
-    prefix  = "tfstate"
+    bucket  = "terrafomr-test-amit-win"
+    prefix  = "terraform-state"
   }
 }
